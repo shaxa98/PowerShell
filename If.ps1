@@ -24,9 +24,9 @@ if ($yosh -eq 7) {
 }elseif ($yosh -eq 17) {
     Write-Host ("O'nbirinchi sinf")
 }elseif ($yosh -gt 17) {
-    Write-Host ("siz maktabni bitirgansiz")
+    Write-Host ("Siz maktabni bitirgansiz!")
 }else {
-    write-host ("siz hali maktab yoshiga yetmagansiz")
+    write-host ("Siz hali maktab yoshiga yetmagansiz!")
 }
 
 
