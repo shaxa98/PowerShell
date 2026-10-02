@@ -1,18 +1,32 @@
 write-host "Yoshing Nechida? "
 [int]$yosh = Read-Host
 
-if ($yosh -eq 11) {
-    Write-Host ("Salom")
+if ($yosh -eq 7) {
+    Write-Host ("Birinchi sinf")
+}elseif ($yosh -eq 8) {
+    Write-Host ("Ikkinchi sinf")
+}elseif ($yosh -eq 9) {
+    Write-Host ("Uchinchi sinf")
+}elseif ($yosh -eq 10) {
+    Write-Host ("To'rtinchi sinf")
+}elseif ($yosh -eq 11) {
+    Write-Host ("Beshinchi sinf")
 }elseif ($yosh -eq 12) {
-    Write-Host ("Assalom")
-}elseif ($yosh -eq 12) {
-    Write-Host ("Assalom1")
+    Write-Host ("Oltinchi sinf")
 }elseif ($yosh -eq 13) {
-    Write-Host ("Assalom2")
+    Write-Host ("Yettiinchi sinf")
 }elseif ($yosh -eq 14) {
-    Write-Host ("Assalom3")
+    Write-Host ("Sakkizinchi sinf")
+}elseif ($yosh -eq 15) {
+    Write-Host ("To'qizinchi")
+}elseif ($yosh -eq 16) {
+    Write-Host ("O'ninchi sinf")
+}elseif ($yosh -eq 17) {
+    Write-Host ("O'nbirinchi sinf")
+}elseif ($yosh -gt 17) {
+    Write-Host ("siz maktabni bitirgansiz")
 }else {
-    write-host ("Xato")
+    write-host ("siz hali maktab yoshiga yetmagansiz")
 }
 
 
