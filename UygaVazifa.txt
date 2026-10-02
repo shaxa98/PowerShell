@@ -1,0 +1,36 @@
+new-item Dushanba.txt
+new-item Seshanba.txt
+new-item Chorshanba.txt
+new-item Payshanba.txt
+new-item Juma.txt
+new-item Shanba.txt
+Set-content ./Dushanba.txt "Ona Tili"
+Add-content ./Dushanba.txt "Adabiyot"
+Add-content ./Dushanba.txt "Matematika"
+Add-content ./Dushanba.txt "Kimyo"
+Add-content ./Dushanba.txt "Fizika"
+Set-content ./Seshanba.txt "Ona Tili"
+Add-content ./Seshanba.txt "Adabiyot"
+Add-content ./Seshanba.txt "Matematika"
+Add-content ./Seshanba.txt "Kimyo"
+Add-content ./Seshanba.txt "Fizika"
+Set-content ./Chorshanba.txt "Ona Tili"
+Add-content ./Chorshanba.txt "Adabiyot"
+Add-content ./Chorshanba.txt "Matematika"
+Add-content ./Chorshanba.txt "Kimyo"
+Add-content ./Chorshanba.txt "Fizika"
+Set-content ./Payshanba.txt "Ona Tili"
+Add-content ./Payshanba.txt "Adabiyot"
+Add-content ./Payshanba.txt "Matematika"
+Add-content ./Payshanba.txt "Kimyo"
+Add-content ./Payshanba.txt "Fizika"
+Set-content ./Juma.txt "Ona Tili"
+Add-content ./Juma.txt "Adabiyot"
+Add-content ./Juma.txt "Matematika"
+Add-content ./Juma.txt "Kimyo"
+Add-content ./Juma.txt "Fizika"
+Set-content ./Shanba.txt "Ona Tili"
+Add-content ./Shanba.txt "Adabiyot"
+Add-content ./Shanba.txt "Matematika"
+Add-content ./Shanba.txt "Kimyo"
+Add-content ./Shanba.txt "Fizika"

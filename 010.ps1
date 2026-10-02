@@ -1,0 +1,1 @@
+write-host 10 -eq 10 and 20 -ne 20 
