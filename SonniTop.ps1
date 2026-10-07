@@ -1,5 +1,4 @@
 $number = Get-Random -Minimum 1 -Maximum 10
-
 do {
     $guess = Read-Host -Prompt "Men o'ylagan raqamni top?"
     if ($guess -lt $number) {
