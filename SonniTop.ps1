@@ -1,4 +1,4 @@
-$number = Get-Random -Minimum 1 -Maximum 100
+$number = Get-Random -Minimum 1 -Maximum 10
 # write-Output "$number"
 do {
     $guess = Read-Host -Prompt "Men o'ylagan raqamni top?"
