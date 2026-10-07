@@ -8,7 +8,7 @@ do {
         Write-Output 'Pastga!'
     }
 }
-
+#true kelguncha ishlaydi 
 until ($guess -eq $number)
 { 
     "Tabriklayman! Siz men o'ylagan raqamini topdingiz!"
