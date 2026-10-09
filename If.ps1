@@ -61,9 +61,9 @@ if (15 -eq 12) {
     Write-host "Salom"
 }elseif (15 -eq 14){
      Write-host "Salom1"
-} elseif (14 -eq 14){
-     Write-host "Salom2"
-}elseif (14 -eq 14){
+} elseif (14 -eq 12){
+     Write-host "Salom21"
+}elseif (14 -eq 11){
      Write-host "Salom3"
 }
 else {
@@ -71,5 +71,3 @@ else {
 }
 
 
-
-12 -eq 12
