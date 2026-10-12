@@ -8,7 +8,7 @@ switch ($holat) {
        "1" {
         $text = "$ism darsga keldi"
         Write-Host $text
-        Add-Content .\Davomot.txt "$text"
+        Add-Content .\Davomot.txt "$text"    
     }
     "2" {
         $text = "$ism darsga kelmadi"
