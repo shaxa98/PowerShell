@@ -3,15 +3,22 @@ Write-Host "1 - Keldi"
 Write-Host "2 - Kelmadi"
 Write-Host "3 - Kechikdi"
 $holat = Read-Host "Davomatni tanlang"
+
 switch ($holat) {
-    "1" {
-        Write-Host "$ism darsga keldi"
+       "1" {
+        $text = "$ism darsga keldi"
+        Write-Host $text
+        Add-Content .\Davomot.txt "$text"
     }
     "2" {
-        Write-Host "$ism darsga kelmadi"
+        $text = "$ism darsga kelmadi"
+        Write-Host $text
+        Add-Content .\Davomot.txt "$text"
     }
     "3" {
-        Write-Host "$ism darsga kechikdi"
+        $text = "$ism darsga kechikdi"
+        Write-Host $text
+        Add-Content .\Davomot.txt "$text"
     }
     default {
         Write-Host "Noto'g'ri tanlov!"
