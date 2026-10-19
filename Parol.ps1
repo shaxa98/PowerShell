@@ -28,7 +28,6 @@ for ($i = 0; $i -lt $uzunlik; $i++) {
     $index = Get-Random -Minimum 0 -Maximum $baza.Count
     $parol += $baza[$index]
 }
-
 # Parolni klaviatura xotirasiga nusxalash (Clipboard)
 $parol | Set-Clipboard
 
