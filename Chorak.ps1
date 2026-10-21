@@ -1,10 +1,6 @@
-# Write-Host "Sen menga baholaringni yoz va men senga qanday o'qishingi aytib beraman!"
-# [int]$OnaTili = Read-Host "Onatili Fanidan nechi baho olding? "
-# [int]$Matematika = Read-Host "Matematika Fanidan nechi baho olding? "
-# [int] $JismoniyTarbiya = Read-Host "Jismoniy tarbiya Fanidan nechi baho olding? "
-  
-$hammafan = @("Chizmachilik", "Ona tili", "Matetetika", "Ingiliz tili", "Texnalogiya", "Biologiya", "Tasviriy Sanat", "Huquq", "Musiqa")
 
+$hammafan = @("Chizmachilik", "Ona tili", "Matematika", "Ingiliz tili", "Texnalogiya",
+ "Biologiya", "Tasviriy Sanat", "Huquq", "Musiqa")
 For ($i=0; $i -le $hammafan.Length; $i++ ) {
    $baho =  read-host $hammafan[$i] "dan nechi baho olding ?"
    if ($baho -eq 1 ) {
